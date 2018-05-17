@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/assignment/assignment",
+    "pages/personinfor/personinfor"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1aad16",
+    "navigationBarTitleText": "校程序",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/footer-icon-01.png",
+        "selectedIconPath": "images/footer-icon-01-active.png",        
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/assignment/assignment",
+        "iconPath": "images/footer-icon-02.png",
+        "selectedIconPath": "images/footer-icon-02-active.png",
+        "text": "任务"
+      },
+      {
+        "pagePath": "pages/personinfor/personinfor",
+        "iconPath": "images/footer-icon-03.png",
+        "selectedIconPath": "images/footer-icon-03-active.png",
+        "text": "个人信息"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

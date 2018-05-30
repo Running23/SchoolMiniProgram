@@ -1,1 +1,86 @@
-/* pages/personinfor/personinfor.wxss */
+page{
+  background-color: #EEEEE0;
+}
+/*头像和名称样式*/
+.user-container{
+  background-color: #1aad16;
+  display: flex;
+  height: 220rpx;
+}
+
+.usericon{
+  margin-left:50rpx; 
+  margin-top:20rpx;
+}
+.usericonimg{
+  display: block;
+  width: 135rpx;
+  height: 135rpx;
+  border-radius: 50%;
+  object-fit: cover;
+  overflow:hidden;
+}
+
+.nickName{
+  flex: 1;
+  margin-left:35rpx; 
+  margin-top:70rpx;
+}
+/*广告语栏样式*/
+.advert{
+  background-color:#1aad16; 
+  height: 180rpx;
+  display: flex;
+}
+.advert image{
+  margin-right: 150rpx;
+  width: 100rpx;
+  height: 100rpx;
+}
+.advert text{
+  margin-left: 150rpx;
+  flex: 1;
+}
+/*列表样式*/
+.personal-list{
+  background-color: #FFFFF0;
+  margin-top: 80rpx;
+  display: flex;
+  flex-direction: column; 
+}
+
+/*列表项的样式*/
+
+.list-item{
+  cursor: pointer;
+  height: 100rpx;
+  flex: 1;
+  border: 1rpx solid #eee;
+}
+
+.item{
+  display: flex;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+}
+
+/*列表项中image的样式*/
+.item-icon{
+  margin-top:10rpx;
+}
+
+.item-image image{
+  width: 50rpx;
+  height: 50rpx;
+}
+.item-icon image{
+  width: 40rpx;
+  height: 40rpx; 
+}
+
+
+/*列表项中text的样式*/
+.item-text{
+  padding-left: 20rpx;
+  flex:1;
+}
